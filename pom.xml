@@ -93,6 +93,22 @@
 					</execution>
 				</executions>
 			</plugin>
+			<plugin>
+				<groupId>com.jjoules</groupId>
+	  			<artifactId>jjoules-maven-plugin</artifactId>
+	  			<version>1.0-SNAPSHOT</version>
+				<executions>
+					<execution>						
+						<!-- <phase>test</phase> 
+						<configuration>
+							<outputDirectory>${basedir}/target/energy/</outputDirectory>
+						</configuration> -->
+						<goals>
+							<goal>prepare-output</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
       	
 		<!-- <plugin>
 		    <groupId>com.jjoules</groupId>
