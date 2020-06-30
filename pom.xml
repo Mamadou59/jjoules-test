@@ -80,24 +80,24 @@
         </plugin> 
       	 <!-- plugin for jacoco report -->
       	 <plugin>
-				<groupId>org.jacoco</groupId>
-				<artifactId>jacoco-maven-plugin</artifactId>
-				<version>0.8.5</version>
-				<executions>
-					<execution>
-						<goals>
-							<goal>prepare-agent</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>report</id>
-						<phase>test</phase>
-						<goals>
-							<goal>report</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
+		    <groupId>org.jacoco</groupId>
+		    <artifactId>jacoco-maven-plugin</artifactId>
+		    <version>0.8.4</version>
+		    <executions>
+		      <execution>
+		        <id>prepare-agent</id>
+		        <goals>
+		         <goal>prepare-agent</goal>
+		        </goals>
+		      </execution>
+		      <execution>
+		        <id>report</id>
+		        <goals>
+		         <goal>report</goal>
+		        </goals>
+		      </execution>
+		    </executions>
+		   </plugin>
 			<plugin>
 				<groupId>com.jjoules</groupId>
 	  			<artifactId>jjoules-maven-plugin</artifactId>
@@ -133,5 +133,7 @@
       	
       
 	</plugins> 
+	
+	
  </build>
 </project>
