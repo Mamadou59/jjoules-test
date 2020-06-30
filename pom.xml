@@ -19,8 +19,13 @@
 		<sonar.jacoco.reportPath>${project.basedir}/../target/jacoco.exec</sonar.jacoco.reportPath>
 		<sonar.language>java</sonar.language>
 	</properties>
-  
-  
+
+	<scm>
+    		<connection>scm:git:git@github.com:Mamadou59/jjoules-test.git</connection>
+    		<developerConnection>scm:git:git@github.com:Mamadou59/jjoules-test.git</developerConnection>
+    		<url>https://github.com/Mamadou59/jjoules-test</url>
+    		<tag>HEAD</tag>
+  	</scm>
   <dependencies>
     	<dependency>
     		<groupId>com.jjoules</groupId>
