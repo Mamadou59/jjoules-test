@@ -111,7 +111,9 @@
 						</configuration> -->
 						<goals>
 							<goal>prepare-output</goal>
+							<goal>save-result</goal>
 						</goals>
+						
 					</execution>
 				</executions>
 			</plugin>
