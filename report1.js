@@ -1,1 +1,0 @@
-[{"className":"EnergyMesureExtensionTest","methods":[{"testName":"sleep50ms","energy":185608.0,"duration":52},{"testName":"sleep25ms","energy":325255.0,"duration":60}]},{"className":"SecondeClassTest","methods":[{"testName":"testOne","energy":779539.0,"duration":151},{"testName":"testTwo","energy":13061.0,"duration":1}]}]
